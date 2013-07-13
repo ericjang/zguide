@@ -1,0 +1,22 @@
+These examples were ported using Python and C++ examples as a reference. These julia examples work interchangeably with C++/Python but have not been tested with other languages.
+
+First, make sure you have installed ZMQ bindings via Pkg.add("ZMQ")
+To run, do ./julia hwclient.jl (or any one of the scripts)
+
+Brief Overview of Examples:
+
+Request-Reply (REQ and REP): hwclient, hwserver
+Publish-Subscribe (PUB and SUB): wuclient, wuserver
+Parallel Workers (PUSH and PULL): taskvent, taskwork, tasksink
+
+
+
+
+
+(REQ and ROUTER)
+(DEALER and REP)
+(DEALER and ROUTER)
+(DEALER and DEALER)
+(ROUTER and ROUTER)
+(PUSH and PULL)
+(PAIR and PAIR)
